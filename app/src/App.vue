@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="titleBar">
-      <img src="assets/logo.png" class="titleBarImage" />
+      <img src="@/assets/logo.png" class="titleBarImage" />
       <span>SCRCPY+</span>
     </div>
     <router-view />
