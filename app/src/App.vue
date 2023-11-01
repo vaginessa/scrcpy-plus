@@ -8,14 +8,31 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 /* Material 3 Variables */
 :root {
   --background: #1C1B1F;
 }
 /* Material 3 Variables */
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+html, body {
+  margin: 0;
+  background-color: #1c1b1f;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar { width: 0.5em; }
+body::-webkit-scrollbar-thumb {
+  background-color: #8867c0;
+  border-radius: 1em;
+  -webkit-app-region: drag;
+}
+</style>
 
+<style scoped>
 .titleBar {
   -webkit-app-region: drag;
   color: white;
@@ -37,17 +54,6 @@
 .titleBarImage {
   height: 17px;
   transform: translateY(2px);
-}
-</style>
-
-<style>
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
-
-html, body {
-  margin: 0;
-  background-color: #1c1b1f;
+  margin-right: 0.5em;
 }
 </style>
