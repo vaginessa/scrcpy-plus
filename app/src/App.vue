@@ -9,13 +9,20 @@
 </template>
 
 <style scoped>
+/* Material 3 Variables */
+:root {
+  --background: #1C1B1F;
+}
+/* Material 3 Variables */
+
+
 .titleBar {
   -webkit-app-region: drag;
   color: white;
   width: 100%;
   padding: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
-  background: #1C1B1F;
+  background: var(--background);
   position: sticky;
   top: 0;
   z-index: 1000;
