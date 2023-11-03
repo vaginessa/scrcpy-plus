@@ -4,7 +4,7 @@
       <img src="@/assets/logo.png" class="titleBarImage" />
       <span>SCRCPY+</span>
     </div>
-    <router-view />
+    <router-view style="margin-top: 3em" />
   </div>
 </template>
 
@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   padding: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--background);
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   text-overflow: clip;
