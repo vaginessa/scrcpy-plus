@@ -11,7 +11,18 @@
 <style>
 /* Material 3 Variables */
 :root {
+  --foreground: #8867c0;
+  --midground: #20292d;
   --background: #1C1B1F;
+}
+
+.m3-btn {
+  background-color: var(--foreground);
+  margin: 0.5em;
+  padding: 0.35em 0.75em;
+  border-radius: 10em;
+  border: none;
+  outline: none;
 }
 /* Material 3 Variables */
 
