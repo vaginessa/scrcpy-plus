@@ -12,7 +12,7 @@
 /* Material 3 Variables */
 :root {
   --foreground: #8867c0;
-  --midground: #20292d;
+  --midground: #25202d;
   --background: #1C1B1F;
 }
 
@@ -23,6 +23,17 @@
   border-radius: 10em;
   border: none;
   outline: none;
+  transition-duration: 0.25s;
+}
+.m3-btn:hover {
+  filter: brightness(1.5);
+}
+
+.m3-card {
+  background: var(--midground);
+  border-radius: 1em;
+  width: fit-content;
+  padding: 0.5em 1em;
 }
 /* Material 3 Variables */
 
@@ -37,7 +48,7 @@ html, body {
 }
 body::-webkit-scrollbar { width: 0.5em; }
 body::-webkit-scrollbar-thumb {
-  background-color: #8867c0;
+  background-color: var(--foreground);
   border-radius: 1em;
   -webkit-app-region: drag;
 }

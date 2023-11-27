@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <information />
+    <welcome />
     <device />
     <scrcpy />
   </div>
@@ -8,18 +8,22 @@
 
 <style>
 section {
-  border: 1px solid white;
   text-align: center;
+  margin-top: 2em;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
 </style>
 
 <script>
-import information from '@/components/information.vue';
+import welcome from '@/components/welcome.vue';
 import device from '@/components/device.vue';
 import scrcpy from '@/components/scrcpy.vue';
 
 export default {
   name: 'HomeView',
-  components: { information, device, scrcpy }
+  components: { welcome, device, scrcpy }
 }
 </script>
