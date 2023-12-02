@@ -101,14 +101,17 @@ class _MyHomePageState extends State<MyHomePage> {
             Card(
               elevation: 0,
               color: Theme.of(context).colorScheme.surfaceVariant,
-              child: const SizedBox(
+              child: SizedBox(
                 width: 300,
-                height: 100,
                 child: Column(children: [
-                  Text("Model"),
-                  Text("Android Version"),
-                  Text("System Build Number"),
-                  Text("Security Patch"),
+                  Text(
+                    "Model",
+                    style:
+                        TextStyle(color: Theme.of(context).colorScheme.primary),
+                  ),
+                  const Text("Android Version"),
+                  const Text("System Build Number"),
+                  const Text("Security Patch"),
                 ]),
               ),
             ),
